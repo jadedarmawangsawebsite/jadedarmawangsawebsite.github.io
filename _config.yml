@@ -1,0 +1,36 @@
+title: Jade Darmawangsa
+description: > # this means to ignore newlines until "baseurl:"
+  Personal blog of Jade Darmawangsa
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Jade Darmawangsa # add your name
+author-img: jade.jpg # add your photo
+about-author: Jade Darmawangsa is a millennial entrepreneur that builds personal branding businesses and creates digital marketing solutions. # add description
+social-twitter: jadedarmawangsa # add your Twitter handle
+social-facebook: jade.yeh.1 # add your Facebook handle
+social-instagram: jadedarmawangsa # add your Instagram handle
+social-github: # add your Github handle
+social-linkedin: jadedarmawangsa # add your Linkedin handle
+social-email: 	jadedarmawangsa@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: jadedarmawangsa # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
